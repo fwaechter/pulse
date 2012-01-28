@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Refresh" content="<##step##>">
+<title>Smokeping</title>
+<style type="text/css">
+<!--
+
+/* ##################### general ##################### */
+
+body {
+    font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+    font-size: 80%;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ##################### header ##################### */
+
+#header {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAABACAIAAABdmCptAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFRJREFUeNpi/PP7NwMSYGJABSz///8nRZ6FAY3/n0L1GPL4+aS7j0LzCPFpbR8Dpe6htn0kxh+VzSM1/ChOzwykmUeyPCH7D5w4gcxnJGAeOh8gwAA5P3+rzrv2AAAAAABJRU5ErkJggg==");
+    min-height: 64px;
+    height: 64px;
+}
+
+#header h1 {
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#header h1 a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+/* ##################### leftbar ##################### */
+
+#leftbar {
+    float: left;
+    width: 170px;
+    min-height: 300px;
+    height: 300px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#hierarchy_title {
+    background-color: #eeeeee;
+    padding: 2px 5px;
+    border-bottom: 1px solid #292929;
+    margin-bottom: 10px;
+}
+
+#filter_title {
+    background-color: #eeeeee;
+    padding: 2px 5px;
+    border-bottom: 1px solid #292929;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#leftbar input {
+    background-color: #eeeeee;
+    padding: 5px;
+    border: 1px solid #292929;
+}
+
+td.menuactive {
+    font-weight: bold;
+}
+
+/* ##################### content ##################### */
+
+#content {
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+/* ##################### footer ##################### */
+
+#footer {
+    clear: both;
+    padding: 5px;
+    border-top: 1px solid #2b2b2b;
+}
+
+-->
+</style>
+
+<script src="/smokeping/javascript/prototype/prototype.js" type="text/javascript"></script>      
+<script src="/smokeping/javascript/scriptaculous/scriptaculous.js?load=builder,effects,dragdrop" type="text/javascript"></script>
+<script src="/smokeping/javascript/cropper/cropper.js" type="text/javascript"></script>
+<script src="/smokeping/javascript/smokeping-zoom.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="smokeping.cgi">Smokeping - Network Latency Grapher</a></h1>
+</div>
+
+<div id="leftbar">
+<##menu##>
+</div>
+
+<div id="content">
+    <h2><##title##></h2>
+        <p><##remark##></p>
+        <p><##overview##></p>
+        <p><##body##></p>
+</div>
+
+<div id="footer">
+    Running on <##smokeping##> by <##author##>. Theme: <a href="https://github.com/fwaechter/pulse" title="Pulse, a theme for Smokeping">Pulse</a>
+</div>
+
+<!--
+             _          
+            | |         
+ _ __  _   _| |___  ___ 
+| '_ \| | | | / __|/ _ \
+| |_) | |_| | \__ \  __/
+| .__/ \__,_|_|___/\___|
+| |                     
+|_|                     
+
+Pulse Smokeping Theme by Flavio Waechter <fwaechter@chvpn.org> - https://github.com/fwaechter/pulse
+
+-->
+
+</body>
+</html>

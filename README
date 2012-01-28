@@ -1,0 +1,25 @@
+             _          
+            | |         
+ _ __  _   _| |___  ___ 
+| '_ \| | | | / __|/ _ \
+| |_) | |_| | \__ \  __/
+| .__/ \__,_|_|___/\___|
+| |                     
+|_|                     
+
+Pulse Smokeping Theme - Release: 28. Jan. 2012
+
+Author: Flavio Waechter
+Contact: <fwaechter@chvpn.org>
+Website: https://github.com/fwaechter/
+
+--------------------------------------------------
+
+Install instructions:
+
+--> Backup old basepage.html
+--> Install the Pulse basepage.html
+--> Change title and other parameters if necessary
+--> Enjoy :-)
+
+Please note: The Pulse theme is only tested with Smokeping v2.3.6 (as packaged on Debian Squeeze). If you have any problems with other versions, drop me a mail.
