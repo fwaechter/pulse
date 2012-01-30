@@ -15,11 +15,19 @@ Website: https://github.com/fwaechter/
 
 --------------------------------------------------
 
+Changelog:
+
+--> 28. Jan. 2012 - Release
+--> 30. Jan. 2012 - Updated the install instructions on the README
+
+--------------------------------------------------
+
 Install instructions:
 
 --> Backup old basepage.html
 --> Install the Pulse basepage.html
---> Change title and other parameters if necessary
+--> Check the "<script src=..." part in the header and fix the paths to the *.js files if necessary. The default paths are taken from the Debian (Squeeze) package. Without correct paths the Mouse Zoom function for the graphs won't work. (Thanks to Lionel Gentil for reporting).
+--> Change other definitions/parameters if necessary
 --> Enjoy :-)
 
-Please note: The Pulse theme is only tested with Smokeping v2.3.6 (as packaged on Debian Squeeze). If you have any problems with other versions, drop me a mail.
+Please note: The Pulse theme is - by default - only tested with Smokeping v2.3.6 (as packaged on Debian Squeeze). If you have any problems with other versions, drop me a mail.
